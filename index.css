@@ -1,0 +1,52 @@
+:root {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    --primary-color: #000;
+    --secondary-color: #6200ee;
+    --tertiary-color: #fff;
+    
+}
+
+body {
+    margin: 0;
+    
+    
+}
+
+.background-ps{
+    background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+}
+
+.background-sp {}
+
+#capa {
+    height: 1080px;
+}
+
+#capa #row-capa {
+    display: inline-block;
+    position: absolute;
+    margin: 280px 500px;
+    
+  
+
+}
+
+#row-capa img{
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    box-shadow: red 0px 0px 15px;
+
+}
+
+#row-capa h1{
+    display: inline-block;
+    color: var(--tertiary-color);
+    position: relative;
+
+    top: -180px;
+    left: 140px;
+}
